@@ -14,6 +14,6 @@ This repository includes all Ghidra scrips that I wrote to ease the reverse engi
 This script is used to set a function name upon known structure (regular expression and relevant matched group)
 Only unlabeled function names are changed.
 Since Java doesn't have any (native) proper configuration setup, we use inline editing.
-Two errors are loged:
-- Warning when two alphanumric values are found within one function
-- Warning when value of the defined group is not alphanumeric
+Two errors are logged:
+- Warning when two alphanumeric values are found within one function
+- Warning when the value of the defined group is not alphanumeric
